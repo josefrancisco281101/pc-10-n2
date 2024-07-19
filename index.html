@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion de Usuarios</title>
+</head>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  .titles {
+    width: 100%;
+    margin: 1rem
+  }
+
+
+
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  h2 {
+    height: 40px;
+    width: 100%;
+    width: 0 auto;
+    color: #3f9fd9
+  }
+
+  .button {
+    background-color: #26af61;
+    color: white;
+    border-style: none;
+    padding: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .table {
+    display: flex;
+    justify-content: center;
+  }
+
+  .table table {
+
+    width: 100%;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="titles">
+      <h2>All Users</h2>
+      <button class="button">Add New User</button>
+    </div>
+
+
+
+    <div class="table">
+
+      <table>
+
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Role</th>
+            <th scope="col">Profile Picture</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <th scope="row">John Doe</th>
+            <th scope="row">John@example.com</th>
+            <th scope="row">Supervisor</th>
+            <th scope="row"></th>
+            <th scope="row"><button>Edit</button>
+              <button>Delete</button>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <th scope="row">Juan Des</th>
+            <th scope="row">juan@example.com</th>
+            <th scope="row">Controller</th>
+            <th scope="row"></th>
+            <th scope="row"><button>Edit</button>
+              <button>Delete</button>
+            </th>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <th scope="row">Pedro</th>
+            <th scope="row">pedro@example.com</th>
+            <th scope="row">Maestro</th>
+            <th scope="row"></th>
+            <th scope="row"><button>Edit</button>
+              <button>Delete</button>
+            </th>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
